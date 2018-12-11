@@ -11,7 +11,7 @@ The helper functions can be found in the `tools/`
 A python code to perform classification with TensorFlow is avalaible in `models/CNN_classifer.ipynb`
 
 
-This code is still under development and more features will be added. 
+This package is still under development and more features will be added. 
 
 ## Authors:
 Paul Hanakata, Owen Howell, Varun Ursekar
