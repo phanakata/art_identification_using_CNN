@@ -1,6 +1,6 @@
 # art_identifcation_using_CNN
 Codes for indentifying arts using convolutional neural networks (CNN).
-We used art paintings provided in Kaggle competion. 
+We used art paintings provided in Kaggle competion https://www.kaggle.com/c/painter-by-numbers/data. 
 
 We provide codes for preprocessing purposes such as, resizing images and relabeling data. 
 
