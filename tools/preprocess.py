@@ -38,18 +38,22 @@ def CreateDesignVector(imagelist,X=[],n=256):
     return X
 
 
+
 def label_class_to_Integer(Y):
     """
     Y: array 
     num_classes: integer
     return: array Y and number of classes 
     """
-    dictY = dict(zip(np.unique(Y),range(len(np.unique(Y)))))
+    
+    dictY = dict(zip(np.unique(Y.astype(str)),range(len(np.unique(Y.astype(str))))))   
     num_classes = len(dictY)
     for i in range(len(Y)):
         Y[i] = dictY[Y[i]]
+        
+        
+    return Y.astype(int), num_classes, dictY
 
-    return Y.astype(int), num_classes
 
 
 
