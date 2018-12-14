@@ -11,14 +11,14 @@ from sklearn.manifold import TSNE
 from matplotlib import pyplot as plt
 import pandas as pd
 
-def ListImages():    
+def ListImages(file):    
     """
     imagelist :: list of full paths of images
     imagelist_wo :: list of image filenames
     """
     imagelist = []
     imagelist_wo = []
-    folder = 'train/'
+    folder = file
     for filepath in glob.iglob(folder+'*.jpg'):
         imagelist.append(filepath)        
         imagelist_wo.append(filepath[len(folder):]) 
