@@ -6,7 +6,7 @@ We used art paintings provided Painter by Numbers competionKaggle competion http
 
 
 ## General usage
-1. The helper functions can be found in the `tools/`
+1. The helper functions can be found in `tools/`
 2. A simple jupyter notebook to preprocess images and generate binary numpy files is  avalaible in `data/convert_images_to_numpy.ipynb`
 3. A simple jupyter notebook to perform classification with TensorFlow is avalaible in `models/CNN_VGGNet_for_classification.ipynb` 
 
